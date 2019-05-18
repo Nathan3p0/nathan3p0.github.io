@@ -69,9 +69,7 @@ body {
 /*****************/
 
 .header {
-    background-image: url(images/bannerimage.jpg);
-    background-size: cover;
-    background-position: top;
+    background: #777;
     height: 100%;
     max-width: 100%;
     color: #ddd;
@@ -88,7 +86,6 @@ body {
 }
 
 .heading-primary--name{
-    /* display: block; */
     color: #fff;
 }
 
@@ -134,11 +131,12 @@ body {
     text-align: center;
 }
 
-.about-me__img img {
+.profile-pic {
+    width: 20rem;
+    height: 20rem;
     border-radius: 50%;
-    max-width: 75%;
-    display: block;
-    margin: 0 auto;
+    background: #333;
+    margin: auto;
 }
 
 .about-me__bio h4 {
@@ -161,12 +159,7 @@ body {
     grid-template-columns: repeat(4, 1fr);
     padding: 5rem 4vw;
     text-align: center;
-    background-image: linear-gradient(to top,
-        rgba(2, 191, 248, 0.2),
-        rgba(0,0,0,0.9)
-    ), url(images/social.jpg);
-    background-size: cover;
-    background-position: center;
+    background: #777;
     color: #fff;
 }
 
@@ -407,7 +400,7 @@ body {
     }
 }
 
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 350px) {
     .heading-primary {
         font-size: 3rem;
     }
