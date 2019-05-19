@@ -274,6 +274,10 @@ h1, h2, h3, h4 {
     padding: 2rem;
 }
 
+.connection a {
+    color: inherit;
+}
+
 .fa-twitter:hover,
 .fa-linkedin:hover,
 .fa-github:hover,
