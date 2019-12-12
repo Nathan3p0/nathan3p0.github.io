@@ -56,6 +56,15 @@ h1, h2, h3, h4 {
     margin: 15px auto;
 }
 
+.nav li a {
+    display: block;
+    width: 100%;
+}
+
+.nav li a:hover {
+    background-color: var(--medium);
+}
+
 .navbar__title {
     display: inline-block;
     font-size: 2.3rem;
@@ -294,9 +303,8 @@ h1, h2, h3, h4 {
 }
 
 .skills div {
-    border: 2px solid rgba(116, 116, 116, 0.712);
-    border-radius: 2rem;
-    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.534);
+    border: 2px solid rgba(255, 255, 255, 0.712);
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.657);
 }
 
 .skills h4 {
@@ -322,8 +330,6 @@ h1, h2, h3, h4 {
     color: var(--light);
     background-color: var(--blue);
     border: 2px solid var(--light);
-    border-bottom-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
 }
 
 .skills img {
@@ -418,7 +424,7 @@ h1, h2, h3, h4 {
 
 
 
-@media screen and (min-width: 820px) {
+@media screen and (min-width: 912px) {
     .navbar {
         display: flex;
         justify-content: space-between;
